@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A4D68;
+    height: 100vh;
+  }
+  
+  #inner {
+    background-color: lightgray;
+    padding: 2rem;
+  }
+  
+  #box {
+    background-color: #05BFDB;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  #quotes {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .author {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 0;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 2rem;
+  }
+  
+  #newQ {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #newQ:hover {
+    background-color: darkblue;
+  }
+  
